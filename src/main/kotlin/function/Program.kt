@@ -1,8 +1,11 @@
+//To Give a different name to the Kotlin file
+@file:JvmName("DisplayFunctions")
+
 package function
 
 fun main() {
     display("Hello World")
-    println(max(1,2))
+    println(max(1, 2))
 }
 
 fun display(message: String): Boolean {
